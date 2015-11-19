@@ -1,0 +1,25 @@
+{
+  "name": "COMP2068-Lesson10",
+  "homepage": "https://github.com/GeorgianCollege/COMP2068-Lesson10",
+  "authors": [
+    "Tom Tsiliopoulos <tsiliopoulos@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "angular": "~1.4.7",
+    "jquery": "~2.1.4"
+  }
+}
