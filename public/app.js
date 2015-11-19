@@ -1,4 +1,7 @@
 // Main Application Module
-var app = angular.module("app", []);
-console.log("app running");
+var mainApplicationModuleName = "main";
+var mainApplicationModule = angular.module(mainApplicationModuleName, []);
+angular.element(document).ready(function () {
+    angular.bootstrap(document, [mainApplicationModuleName]);
+});
 //# sourceMappingURL=app.js.map
